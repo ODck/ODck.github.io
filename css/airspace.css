@@ -806,3 +806,11 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+/**-------------------------------/
+      Override snapWidget
+ */
+
+#thumbnail-wrapper a {
+  href: "https://www.instagram.com/dc.311/"; !important;
+}
