@@ -700,7 +700,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 40px;
 }
 .social-icons li {
-  display: inline-block;
+  //display: inline-block;
   margin: 0 6px;
 }
 .social-icons a {
