@@ -685,6 +685,10 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+
+#contact-form .form-group-3 {
+  display: none;
+}
 /*--
 	wrapper-contact Start
 --*/
