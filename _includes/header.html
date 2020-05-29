@@ -21,11 +21,31 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <li><a href="{{ site.baseurl }}/work">Work</a></li>
-                <!--<li><a href="{{ site.baseurl }}/blog">Blog</a></li>-->
-                <li><a href="#">Blog</a></li>
-                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
+                {% for item in site.data.navigation.menu %}
+                <!-- If has submenues -->
+                {% if item.submenu %}
+                <li class="dropdown">
+                  <a class="dropdown-toggle"	data-toggle="dropdown" href="#">
+                    {{item.name}}
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    {% for subitem in item.submenu %}
+                    <li>
+                      <a href="{{subitem.link}}">
+                        {% if subitem.icon %}
+                        <i class="fa fa-inverse fa-{{subitem.icon}} fa-2x"></i>
+                        {% endif %}
+                        {{subitem.name}}
+                      </a>
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </li>
+                {% else %}
+                <li><a href="{{item.link}}">{{item.name}}</a></li>
+                {% endif %}
+                {% endfor %}
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->

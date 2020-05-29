@@ -37,8 +37,18 @@ descriptions:
     desc: "Just some placeholder posts, lorem ipsum and the rest."
     
 collections:
-  postsPersonal:
+  remainstealthy:
     output: true
-    permalink: remain/:title/
+    permalink: remainstealthy/:title/
+    sort: date
+    reversed: true
+  unrealenginebra:
+    output: true
+    permalink: unrealenginebra/:title/
+    sort: date
+    reversed: true
+  odck:
+    output: true
+    permalink: blog/:title/
     sort: date
     reversed: true

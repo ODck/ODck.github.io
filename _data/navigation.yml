@@ -1,0 +1,18 @@
+menu: 
+  - name: Home
+    link: /
+    
+  - name: Work
+    link: /work
+    
+  - name: Blog
+    submenu: 
+      - name: Remain Stealthy
+        link: /remainstealthy
+      - name: Un Real En Ginebra
+        link: /unrealenginebra
+      - name: ODck
+        link: /blog
+        
+  - name: Contact
+    link: /contact
