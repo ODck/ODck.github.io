@@ -19,5 +19,5 @@ A un beso de distancia.
 Nos sigue uniendo este corazón,  
 Que para los dos ha dejado de huir.
 
-Nos sigue separando la razón,
+Nos sigue separando la razón,  
 Que se ha cansado de sentir.
