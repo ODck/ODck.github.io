@@ -7,8 +7,8 @@ author: ODck
 ---
 
 Conozco dos extraños.  
-Uno de ellos es cómo me recuerdas,  
-El otro es cómo me ves ahora.  
+Uno de ellos es como me recuerdas,  
+El otro es como me ves ahora.  
 
 Se me ha escapado la vida intentando recordar lo que era.  
 He perdido la memoria intentando imaginar lo que soy.  
